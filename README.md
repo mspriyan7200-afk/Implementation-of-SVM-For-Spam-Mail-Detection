@@ -9,12 +9,19 @@ To write a program to implement the SVM For Spam Mail Detection.
 
 ## Algorithm
 1.Detect File Encoding: Use chardet to determine the dataset's encoding.
+
 2.Load Data: Read the dataset with pandas.read_csv using the detected encoding.
+
 3.Inspect Data: Check dataset structure with .info() and missing values with .isnull().sum().
+
 4.Split Data: Extract text (x) and labels (y) and split into training and test sets using train_test_split.
+
 5.Convert Text to Numerical Data: Use CountVectorizer to transform text into a sparse matrix.
+
 6.Train SVM Model: Fit an SVC model on the training data.
+
 7.Predict Labels: Predict test labels using the trained SVM model.
+
 8.Evaluate Model: Calculate and display accuracy with metrics.accuracy_score.
 
 ## Program:
